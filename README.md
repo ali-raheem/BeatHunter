@@ -206,3 +206,7 @@ The NSTDB noise is from Moody GB, Muldrow WE, Mark RG, "A noise stress test for 
 - Use a real ECG as well as real noise. NSTDB's own test records (MIT-BIH records 118 and 119 with electrode-motion noise, plus beat annotations) would test beat-to-beat variability and ectopic beats, the main thing still flattering the tracker.
 - Give Pan–Tompkins a better rate estimate (reject implausible RR intervals), or combine the two methods: the spectral tracker gives a robust rate, which the beat detector uses to reject false beats.
 - Test on recorded ECG from handle electrodes or a chest strap during exercise, with a reference heart rate.
+
+## License
+
+MIT, see [LICENSE](LICENSE). The NSTDB noise records are not part of this repo; they are downloaded from PhysioNet and remain under their own Open Data Commons Attribution License.
